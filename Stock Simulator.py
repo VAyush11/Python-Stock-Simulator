@@ -562,7 +562,7 @@ percentChanges12 = []
 marketCaps12 = []
 totalVolumes12 = []
 
-RetHosUrl = "https://finance.yahoo.com/screener/unsaved/94b4b343-4d5f-47c3-8b3a-9c0064048a41?dependentField=sector&dependentValues=Technology&offset=0&count=100"
+RetHosUrl = "https://sg.finance.yahoo.com/industries/retailing_hospitality"
 r = requests.get(RetHosUrl)
 data = r.text
 soup = BeautifulSoup(data, features = "lxml")
